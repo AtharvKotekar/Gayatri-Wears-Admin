@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Category</item>
+        <item>Salwar Kameez</item>
+        <item>Chuddidar</item>
+        <item>Leggings</item>
+        <item>Kurti</item>
+        <item>Cigar Pant Dress</item>
+        <item>Dress Material</item>
+        <item>Saree</item>
+        <item>Salwar Suit</item>
+        <item>Gowns</item>
+        <item>Anarkali Suit</item>
+        <item>Palazzo Suits</item>
+        <item>Patiala Suit</item>
+        <item>One Piece</item>
+        <item>Lehenga Choli</item>
+        <item>Ghagra Choli</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>Color</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Silver</item>
+        <item>Gray</item>
+        <item>Purple</item>
+        <item>Maroon</item>
+        <item>White</item>
+        <item>Orange</item>
+        <item>Violet</item>
+        <item>Indigo</item>
+    </string-array>
+
+    <string-array name="deal">
+        <item>Deal</item>
+        <item>Under 999</item>
+        <item>Under 799</item>
+        <item>Under 499</item>
+        <item>Under 1999</item>
+        <item>Under 2799</item>
+        <item>Under 2499</item>
+        <item>Under 2999</item>
+        <item>Under 3499</item>
+        <item>Under 3999</item>
+        <item>Minimum 30% Off</item>
+        <item>Minimum 10% Off</item>
+        <item>Minimum 20% Off</item>
+        <item>Minimum 50% Off</item>
+        <item>Minimum 70% Off</item>
+
+    </string-array>
+
+    <string-array name="material">
+        <item>Material</item>
+        <item>Cotton</item>
+        <item>Viscose</item>
+        <item>Wool</item>
+        <item>Silk</item>
+        <item>Chiffon</item>
+        <item>Georgette</item>
+        <item>Organza</item>
+        <item>Rayon</item>
+        <item>Salwar Suit</item>
+        <item>Linen</item>
+        <item>Oraganza</item>
+    </string-array>
+
+    <string-array name="occasion">
+        <item>Occasion</item>
+        <item>Casual</item>
+        <item>Festival</item>
+        <item>Party</item>
+        <item>Day</item>
+        <item>Everyday Essentials</item>
+        <item>Formal</item>
+        <item>Wedding</item>
+        <item>Semi Formal</item>
+        <item>Winter</item>
+        <item>Vacation</item>
+    </string-array>
+
+    <string-array name="pattern">
+        <item>Pattern</item>
+        <item>Printed</item>
+        <item>Floral</item>
+        <item>Solid</item>
+        <item>Geometric</item>
+        <item>Checks</item>
+        <item>Detailing</item>
+        <item>Woven</item>
+        <item>Stripes</item>
+        <item>Sequined</item>
+        <item>Patterned</item>
+    </string-array>
+</resources>
+
+
+

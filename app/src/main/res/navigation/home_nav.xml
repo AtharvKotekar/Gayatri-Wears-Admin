@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/pendingOrderFragment">
+    <fragment
+        android:id="@+id/pendingOrderFragment"
+        android:name="com.example.gayatriladieswearsadmin.PendingOrderFragment"
+        android:label="Pending Order"
+        tools:layout="@layout/fragment_pending_order">
+        <action
+            android:id="@+id/action_pendingOrderFragment_to_orderDetailFragment"
+            app:destination="@id/orderDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmOrderFragment"
+        android:name="com.example.gayatriladieswearsadmin.ConfirmOrderFragment"
+        android:label="Confirmed Orders"
+        tools:layout="@layout/fragment_confirm_order" />
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.example.gayatriladieswearsadmin.AddProductFragment"
+        android:label="Add Product"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/addStockFragment"
+        android:name="com.example.gayatriladieswearsadmin.AddStockFragment"
+        android:label="Low Stock Products"
+        tools:layout="@layout/fragment_add_stock" />
+    <fragment
+        android:id="@+id/editProductFragment"
+        android:name="com.example.gayatriladieswearsadmin.EditProductFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_edit_product">
+        <action
+            android:id="@+id/action_editProductFragment_to_editProductDetialFragment"
+            app:destination="@id/editProductDetialFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProductDetialFragment"
+        android:name="com.example.gayatriladieswearsadmin.EditProductDetialFragment"
+        android:label="Edit Product" />
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.gayatriladieswearsadmin.OrderDetailFragment"
+        android:label="Check Order"
+        tools:layout="@layout/fragment_order_detail" />
+</navigation>

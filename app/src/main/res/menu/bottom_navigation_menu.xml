@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pendingOrderFragment"
+        android:icon="@drawable/ic_baseline_pending_actions_24"
+        android:title="@string/pending_orders"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/confirmOrderFragment"
+        android:icon="@drawable/ic_baseline_done_all_24"
+        android:title="@string/confirm_orders"
+        android:checkable="true"/>
+
+
+    <item
+        android:id="@+id/addProductFragment"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/add_product"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/editProductFragment"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Edit Product"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/addStockFragment"
+        android:icon="@drawable/ic_baseline_storage_24"
+        android:title="@string/add_stock"
+        android:checkable="true"/>
+
+
+</menu>
